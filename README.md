@@ -16,7 +16,7 @@ Python 2.7 and 3.4+
 If the python package is hosted on Github, you can install directly from Github
 
 ```sh
-pip install git@github.com:hypercurrentio/hypercurrent-python-metering.git
+pip install git+https://github.com/hypercurrentio/hypercurrent-python-metering.git  --break-system-packages
 ```
 (you may need to run `pip` with root permission: `sudo pip install git@github.com:hypercurrentio/hypercurrent-python-metering.git`)
 
